@@ -11,7 +11,7 @@ body {
 
 .header {
     padding: 0px;
-    font-family: Verdana, Geneva, sans-serif ;
+    font-family: 'Ubuntu', sans-serif;
     background-color: #ffffff;
     color:rgb(0, 0, 0);
     opacity: 0.7;
@@ -20,7 +20,8 @@ body {
 .header h1 {
     display: inline-block;
     font-size: 32px;
-    color:black
+    color:black;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 #navbarLogo {
@@ -30,6 +31,7 @@ body {
 .header h1 .and {
     color:rgb(0, 0, 0);
     width: auto;
+    font-family: 'Ubuntu', sans-serif;
     }
 
 
@@ -37,33 +39,45 @@ body {
     padding-top: 25px;
     margin-right: 20px;
     float: right;
-    font-family: Verdana, Geneva, sans-serif ;
+    font-family: 'Ubuntu', sans-serif;
     font-size: 20px;
 }
 
 .header div ul {
     list-style-type: none;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 a {
     color: #000000;
     text-decoration: none;
     font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 p {
-    font-size: 16px;
-    color:#000000
+    font-size: 20px;
+    color:#000000;
+    font-family: 'Fira Sans', sans-serif;
+    
 }
 
 ul {
-    font-size: 16px;
-    color:#000000
+    font-size: 18px;
+    color:#000000;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+li {
+    font-size: 18px;
+    color:#000000;
+    font-family: 'Fira Sans', sans-serif;
 }
 
 .hero {
@@ -98,7 +112,7 @@ ul {
     float: right;
     width: 20%;
     height: 100%;
-    font-family: Verdana, Geneva, sans-serif ;
+    font-family: 'Ubuntu', sans-serif;
     background-color: #b3876d;
     box-shadow: 0px 5px 30px rgb(205, 161, 161);
 }
@@ -106,32 +120,46 @@ ul {
 .review-lead {
     margin-bottom: 32px;
     color: #ffffff;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .review2 {
     margin-bottom: 32px;
     color: #ffffff;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .review3 {
     margin-bottom: 32px;
     color: #ffffff;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.review-lead h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .review-lead h3 {
+    font-size: 20px;
     margin-bottom: 10px;
     text-align: center;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .review2 h3 {
     margin-bottom: 10px;
     text-align: center;
-    font-family: 'roboto';
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .review3 h3 {
+    font-size: 20px;
     margin-bottom: 10px;
     text-align: center;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .review-lead img {
@@ -161,8 +189,8 @@ ul {
 .about {
     margin-bottom: 20px;
     padding: 50px;
-    height: 800px;
-    font-family: Verdana, Geneva, sans-serif ;
+    height: 700px;
+    font-family: 'Ubuntu', sans-serif;
     background-color: rgb(232,78,55);
     color:rgb(241, 240, 243);
     box-shadow: 0px 5px 30px rgb(205, 161, 161);
@@ -172,7 +200,7 @@ ul {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
-    font-family: Verdana, Geneva, sans-serif ;
+    font-family: 'Ubuntu', sans-serif;
     background-color: rgb(232,78,55);
     color:rgb(241, 240, 243);
     box-shadow: 0px 5px 30px rgb(205, 161, 161);
@@ -182,7 +210,7 @@ ul {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
-    font-family: Verdana, Geneva, sans-serif ;
+    font-family: 'Ubuntu', sans-serif;
     background-color: rgb(232,78,55);
     color:rgb(241, 240, 243);
     box-shadow: 0px 5px 30px rgb(205, 161, 161);
@@ -203,16 +231,19 @@ ul {
 .about h2 {
     margin-bottom: 20px;
     font-size: 36px;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .services h2 {
     margin-bottom: 20px;
     font-size: 36px;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .contact h2 {
     margin-bottom: 20px;
     font-size: 36px;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .footer {
@@ -225,3 +256,6 @@ ul {
 .footer h2 {
     font-size: 20px;
 }
+
+/* font-family: 'Fira Sans', sans-serif;
+font-family: 'Ubuntu', sans-serif; */
