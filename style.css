@@ -72,12 +72,14 @@ ul {
     font-size: 18px;
     color:#000000;
     font-family: 'Fira Sans', sans-serif;
+    text-align: center;
 }
 
 li {
     font-size: 18px;
     color:#000000;
     font-family: 'Fira Sans', sans-serif;
+    text-align: center;
 }
 
 .hero {
@@ -137,6 +139,7 @@ li {
 
 .review-lead h2 {
     font-size: 28px;
+    color: rgb(232,78,55);
     margin-bottom: 10px;
     text-align: center;
     font-family: 'Ubuntu', sans-serif;
