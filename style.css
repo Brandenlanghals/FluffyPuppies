@@ -222,6 +222,22 @@ li {
     box-shadow: 0px 5px 30px rgb(0, 0, 0);
 }
 
+.slideshow {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 325px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: larger;
+    background-color: rgb(232,78,55);
+    color:rgb(241, 240, 243);
+    box-shadow: 0px 5px 30px rgb(0, 0, 0);
+}
+
+#card-logo {
+    float: left;
+    max-height: 100px;
+}
+
 #bubbleDog {
     max-height: 200px;
     float: left;
