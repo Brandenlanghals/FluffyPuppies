@@ -92,13 +92,17 @@ ol {
 
 }
 
-/* h3 {
+.services-h3 {
     font-size: 28px;
-} */
+    color: darkgreen;
+    font-weight: bolder;
+    padding-bottom: 15px;
+}
 
 .hero {
     height: 625px;
     width: 100%;
+    padding-top: 20px;
     margin-bottom: 10px;
     background-image: url("images/Fluffy-Puppies-logos-transparent.jpg");
     background-size: cover;
@@ -226,7 +230,8 @@ ol {
 .faq {
     margin-bottom: 20px;
     padding: 50px;
-    height: 1000px;
+    margin: 20px;
+    height: 1050px;
     font-size: 28px;
     line-height: 1.0;
     font-family: 'Ubuntu', sans-serif;
@@ -238,16 +243,19 @@ ol {
 .services {
     margin-bottom: 20px;
     padding: 50px;
-    height: 700px;
+    margin: 30px;
+    height: 1110px;
     font-family: 'Ubuntu', sans-serif;
+    font-size: 22px;
     background-color: #dbcece;
-    color:rgb(241, 240, 243);
+    color:rgb(0, 0, 0);
     box-shadow: 0px 10px 30px rgb(0, 0, 0);
 }
 
 .contact {
     margin-bottom: 20px;
     padding: 50px;
+    margin: 20px;
     margin-top: 50px;
     height: 500px;
     font-family: 'Ubuntu', sans-serif;
@@ -275,6 +283,7 @@ ol {
 #bubbleDog {
     max-height: 200px;
     float: left;
+    margin: 15px;
 }
 
 #about1 {
@@ -300,12 +309,21 @@ ol {
     padding-top: 20px;
 }
 
+.services-list {
+    font-size: 18px;
+    color:#000000;
+    font-family: 'Fira Sans', sans-serif;
+    padding: 5px;
+    padding-bottom: 5px;
+}
+
 #abouth3 {
     font-size: 32px;
     font-family: 'Ubuntu', sans-serif;
     text-align: center;
     font-family: 'Dancing Script', cursive;
     font-weight: bolder;
+    color: darkgreen;
 }
 
 .about img {
@@ -560,5 +578,5 @@ ol {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     padding: 16px;
     text-align: center;
-    background-color: rgb(255, 255, 255);
+    background-color:#dbcece;
   }
