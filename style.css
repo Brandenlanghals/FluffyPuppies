@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    padding: 0;
+    padding: 0px;
     margin: 0;
 }
 
@@ -69,16 +69,27 @@ p {
 }
 
 ul {
-    font-size: 18px;
+    font-size: 24px;
     color:#000000;
     font-family: 'Fira Sans', sans-serif;
+    padding-bottom: 20px;
 }
 
 li {
-    font-size: 18px;
+    font-size: 24px;
     color:#000000;
     font-family: 'Fira Sans', sans-serif;
     padding: 15px;
+    padding-bottom: 20px;
+}
+
+ol {
+    font-size: 22px;
+    color:#ffffff;
+    font-family: 'Fira Sans', sans-serif;
+    padding: 15px;
+    font-weight: bolder;
+
 }
 
 /* h3 {
@@ -205,10 +216,22 @@ li {
 .about {
     margin-bottom: 20px;
     padding: 50px;
-    height: 700px;
+    height: 800px;
     font-family: 'Ubuntu', sans-serif;
     background-color: #dbcece;
     color:rgb(243, 240, 240);
+    box-shadow: 0px 10px 30px rgb(0, 0, 0);
+}
+
+.faq {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 1000px;
+    font-size: 28px;
+    line-height: 1.0;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #dbcece;
+    color:rgb(0, 0, 0);
     box-shadow: 0px 10px 30px rgb(0, 0, 0);
 }
 
@@ -226,7 +249,7 @@ li {
     margin-bottom: 20px;
     padding: 50px;
     margin-top: 50px;
-    height: 325px;
+    height: 500px;
     font-family: 'Ubuntu', sans-serif;
     background-color: #dbcece;
     color:rgb(241, 240, 243);
@@ -262,6 +285,11 @@ li {
     box-shadow: 0px 5px 30px rgb(255, 255, 255);
 }
 
+.video {
+    position: center;
+    padding: 30px;
+}
+
 #abouthead {
     font-size: 60px;
     font-family: 'Ubuntu', sans-serif;
@@ -281,6 +309,12 @@ li {
 }
 
 .about img {
+    max-height: 300px;
+    border-radius: 50%;
+    box-shadow: 0px 5px 30px rgb(75, 0, 0);
+}
+
+.faq img {
     max-height: 300px;
     border-radius: 50%;
     box-shadow: 0px 5px 30px rgb(75, 0, 0);
@@ -308,6 +342,7 @@ li {
 
 .about h2 {
     margin-bottom: 20px;
+    color: rgb(30, 122, 30);
     font-size: 36px;
     font-family: 'Ubuntu', sans-serif;
 }
@@ -315,6 +350,7 @@ li {
 .services h2 {
     margin-bottom: 30px;
     font-size: 42px;
+    color: rgb(30, 122, 30);
     font-family: 'Ubuntu', sans-serif;
     text-align: center;
 }
@@ -329,6 +365,7 @@ li {
 .contact h2 {
     margin-bottom: 20px;
     font-size: 36px;
+    color: rgb(30, 122, 30);
     font-family: 'Ubuntu', sans-serif;
 }
 
