@@ -106,19 +106,28 @@ li {
 .content {
     width: 75%;
     display: inline-block;
-    margin-left: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
 }
+
+.indexContent {
+    width: 75%;
+    display: inline-block;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
 /* review sidebar */
 .reviews {
     margin-right: 20px;
     padding: 20px;
-    clear: both;
     float: right;
+    clear: both;
     width: 20%;
     height: 100%;
     font-family: 'Ubuntu', sans-serif;
-    background-color: #b3876d;
-    box-shadow: 0px 5px 30px rgb(205, 161, 161);
+    background-color: #dbcece;
+    box-shadow: 0px 5px 30px rgb(107, 99, 99);
 }
 
 .review-lead {
@@ -197,8 +206,8 @@ li {
     padding: 50px;
     height: 700px;
     font-family: 'Ubuntu', sans-serif;
-    background-color: rgb(232,78,55);
-    color:rgb(241, 240, 243);
+    background-color: #dbcece;
+    color:rgb(243, 240, 240);
     box-shadow: 0px 10px 30px rgb(0, 0, 0);
 }
 
@@ -207,7 +216,7 @@ li {
     padding: 50px;
     height: 700px;
     font-family: 'Ubuntu', sans-serif;
-    background-color: rgb(232,78,55);
+    background-color: #dbcece;
     color:rgb(241, 240, 243);
     box-shadow: 0px 10px 30px rgb(0, 0, 0);
 }
@@ -218,7 +227,7 @@ li {
     margin-top: 50px;
     height: 325px;
     font-family: 'Ubuntu', sans-serif;
-    background-color: rgb(232,78,55);
+    background-color: #dbcece;
     color:rgb(241, 240, 243);
     box-shadow: 0px 5px 30px rgb(0, 0, 0);
 }
@@ -229,7 +238,7 @@ li {
     height: 325px;
     font-family: 'Ubuntu', sans-serif;
     font-size: larger;
-    background-color: rgb(232,78,55);
+    background-color: #dbcece;
     color:rgb(241, 240, 243);
     box-shadow: 0px 5px 30px rgb(0, 0, 0);
 }
