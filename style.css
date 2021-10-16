@@ -327,6 +327,7 @@ ol {
 .video {
     position: center;
     padding: 30px;
+    border: 0px;
 }
 
 #abouthead {
