@@ -347,7 +347,7 @@ ol {
     padding-bottom: 5px;
 }
 
-#abouth3 {
+.abouth3 {
     font-size: 32px;
     font-family: 'Ubuntu', sans-serif;
     text-align: center;
@@ -398,7 +398,7 @@ ol {
     margin-bottom: 20px;
     color: rgb(30, 122, 30);
     font-size: 36px;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Dancing Script', cursive;
 }
 
 .services h2 {
