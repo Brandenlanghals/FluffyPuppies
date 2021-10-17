@@ -369,6 +369,16 @@ ol {
     padding-top: 20px;
 }
 
+#abouthead2 {
+    font-size: 60px;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bolder;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
 .services-list {
     font-size: 18px;
     color:#000000;
