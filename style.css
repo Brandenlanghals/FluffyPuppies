@@ -147,7 +147,7 @@ ol {
 }
 
 .indexContent {
-    width: 75%;
+    width: 100%;
     display: inline-block;
     margin-left: 30px;
     margin-right: 30px;
@@ -240,10 +240,13 @@ ol {
 .about {
     margin-bottom: 20px;
     padding: 50px;
-    height: 800px;
+    margin: 20px;
+    height: 700px;
+    font-size: 28px;
+    line-height: 1.0;
     font-family: 'Ubuntu', sans-serif;
     background-color: #dbcece;
-    color:rgb(243, 240, 240);
+    color:rgb(0, 0, 0);
     box-shadow: 0px 10px 30px rgb(0, 0, 0);
 }
 
@@ -262,6 +265,32 @@ ol {
     padding: 50px;
     margin: 20px;
     height: 1175px;
+    font-size: 28px;
+    line-height: 1.0;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #dbcece;
+    color:rgb(0, 0, 0);
+    box-shadow: 0px 10px 30px rgb(0, 0, 0);
+}
+
+.client-card {
+    margin-bottom: 20px;
+    padding: 50px;
+    margin: 20px;
+    height: 325px;
+    font-size: 28px;
+    line-height: 1.0;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #dbcece;
+    color:rgb(0, 0, 0);
+    box-shadow: 0px 10px 30px rgb(0, 0, 0);
+}
+
+.contact-card {
+    margin-bottom: 20px;
+    padding: 50px;
+    margin: 20px;
+    height: 350px;
     font-size: 28px;
     line-height: 1.0;
     font-family: 'Ubuntu', sans-serif;
@@ -387,6 +416,7 @@ ol {
 
 #contactdog {
     border-radius: 75%;
+    max-height: 275px;
 }
 
 .container {
