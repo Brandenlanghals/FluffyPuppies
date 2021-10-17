@@ -339,7 +339,7 @@ ol {
     max-height: 100px;
 }
 
-#bubbleDog {
+.bubbleDog {
     max-height: 200px;
     float: left;
     margin: 15px;
