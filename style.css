@@ -354,7 +354,6 @@ ol {
 }
 
 .video {
-    position: center;
     padding: 30px;
     border: 0px;
 }
@@ -477,7 +476,6 @@ ol {
 
 #ohio {
     max-height: 200px;
-    box-shadow: inset;
 }
 
 /* social icon css*/
