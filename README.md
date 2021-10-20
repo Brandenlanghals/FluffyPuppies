@@ -2,7 +2,7 @@
 
 **[Try it out here!](https://brandenlanghals.github.io/FluffyPuppies/)**
 
-This mock website was created for a webiste design class at Southern New Hampshire University. The business is called Fluffy Puppies and is a local dog grooming business. The purpose of this fake website was to create pages using HTML, CSS, JS. Pre-built libraries like bootstrap etc. were not permitted for use. 
+This mock website was created for a website design class at Southern New Hampshire University. The business is called Fluffy Puppies and is a local dog grooming business. The purpose of this fake website was to create pages using HTML, CSS, JS. Pre-built libraries like bootstrap etc. were not permitted for use. 
 
 
 
